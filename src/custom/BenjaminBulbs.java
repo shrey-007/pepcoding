@@ -41,6 +41,25 @@ public class BenjaminBulbs {
      }
 
      //method3=only numbers who are perfect squares are on
+     //explaination= any number is divided by a then a*b=num
+    //than that number is also divided by b coz b*a=num
+    //so every number can be written in a*b and b*a form
+    //ex=12= 1*12 and 12*1 so there are two factors 1,12
+    //       3*4 and 4*3 so there are two factors 4,3
+    //       2*6 and 6*2 so there are two factors 2,6
+    //so there are always even number of divisors
+
+    //but take example of 36
+    //1*36 and 36*1
+    //2*18 and 18*2
+    //3*6 and 6*3
+    //4*9 and 9*4
+    //6*6 ye akela aayya hai. isliye perfect square ke odd numbers of divisors hote hai
+    //and bulb vahi khule hoge jo odd baar toggle hue hai, means unke odd divisors hai, means voh perfect square hai
+
+    //
+
+
     public int func3(int n){
          //ab 0 t0 n tak ye mt check krna ki kon perfect square hai
         //simply dekho 1 ka square hai toh on hoga
